@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 error_reporting(E_ERROR | E_PARSE);
 $src = json_encode($_POST['src']);
 
